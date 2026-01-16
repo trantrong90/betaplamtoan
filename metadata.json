@@ -1,0 +1,7 @@
+{
+  "name": "Bé Tập Đếm - Trò Chơi Toán Học",
+  "description": "Một ứng dụng giáo dục tương tác giúp trẻ từ 3 đến 6 tuổi làm quen với chữ số, đếm hình ảnh và thực hiện các phép cộng trừ đơn giản thông qua hình ảnh sinh động và giọng nói hỗ trợ từ AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

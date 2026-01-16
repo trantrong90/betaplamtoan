@@ -379,13 +379,13 @@ const App: React.FC = () => {
               <div className="flex gap-3 pt-4 items-stretch">
                 <button 
                   onClick={handlePreviewVoice}
-                  className="flex-1 bg-blue-50 text-blue-600 py-5 px-2 rounded-[30px] font-black text-base shadow-sm border-2 border-blue-200 active:scale-95 transition-all whitespace-nowrap flex items-center justify-center gap-1"
+                  className="flex-1 bg-blue-50 text-blue-600 py-4 px-2 rounded-[30px] font-black text-sm shadow-sm border-2 border-blue-200 active:scale-95 transition-all whitespace-nowrap flex items-center justify-center gap-1"
                 >
-                  <span className="text-xl">🔊</span> NGHE THỬ
+                  <span className="text-lg">🔊</span> NGHE THỬ
                 </button>
                 <button 
                   onClick={() => { triggerFeedback("Đã lưu cài đặt!"); setShowSettings(false); }} 
-                  className="flex-[1.5] bg-emerald-500 text-white py-5 px-4 rounded-[30px] font-black text-xl shadow-lg border-b-8 border-emerald-700 active:translate-y-2 active:border-b-0 transition-all flex items-center justify-center"
+                  className="flex-[1.5] bg-emerald-500 text-white py-4 px-4 rounded-[30px] font-black text-lg shadow-lg border-b-8 border-emerald-700 active:translate-y-2 active:border-b-0 transition-all flex items-center justify-center"
                 >
                   XÁC NHẬN
                 </button>

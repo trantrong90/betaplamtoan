@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Bé Tập Đếm - Trò Chơi Toán Học</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
     <style>
         :root {
             --primary: #FF7EB3;
@@ -16,7 +18,7 @@
         }
         body {
             font-family: 'Quicksand', sans-serif;
-            background: #f0f2f5;
+            background: #fdfcf0;
             margin: 0;
             overflow: hidden;
             display: flex;
@@ -46,7 +48,7 @@
         }
         .animate-slide-up { animation: slide-up 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67); }
         .animate-float { animation: float 3s ease-in-out infinite; }
-        .animate-shake { animation: shake 0.2s ease-in-out Math.random(); }
+        .animate-shake { animation: shake 0.2s ease-in-out; }
         
         .glass {
             background: rgba(255, 255, 255, 0.7);
@@ -54,17 +56,13 @@
             border: 1px solid rgba(255, 255, 255, 0.3);
         }
         
-        /* Custom scrollbar */
         ::-webkit-scrollbar { width: 0px; background: transparent; }
         
         * {
             user-select: none;
             -webkit-tap-highlight-color: transparent;
             outline: none;
-        }
-
-        .nav-pill {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-sizing: border-box;
         }
     </style>
 <script type="importmap">
@@ -80,5 +78,6 @@
 </head>
 <body>
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>
